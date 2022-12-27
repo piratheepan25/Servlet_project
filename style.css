@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	height:100vh;
+	overflow:hidden;
+	width:100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;	
+	flex-direction: column;	
+}
+ 
+form{
+	border:none;
+	height: fit-content;
+	width:fit-content;
+	padding:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+select{
+	height:50px;
+	width:100%;
+	font-size:150%;
+	margin: 20px 0px;
+}
+
+button{
+	height:50px;
+	width:70px;
+	font-size:150%;
+}
+
+h3{
+	border-radius: 5px;
+	padding:20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
